@@ -652,7 +652,7 @@ public class DroidPlannerPrefs {
         surveyDetail.setSidelap(prefs.getFloat(PREF_SURVEY_SIDELAP, 60));
 
         // Load the overlap.
-        surveyDetail.setOverlap(prefs.getFloat(PREF_SURVEY_OVERLAP, 50));
+          surveyDetail.setOverlap(prefs.getFloat(PREF_SURVEY_OVERLAP, 50));
 
         // Load the altitude.
         surveyDetail.setAltitude(prefs.getFloat(PREF_SURVEY_ALTITUDE, 50));

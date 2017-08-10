@@ -43,8 +43,8 @@ public interface DPMap {
     // 无人机皮带宽度
 	int DRONE_LEASH_DEFAULT_WIDTH = 2;
 
-    // 多边形路径颜色，红
-	int POLYGONS_PATH_DEFAULT_COLOR = Color.RED;
+    // 多边形路径颜色，透明
+	  int POLYGONS_PATH_DEFAULT_COLOR = Color.TRANSPARENT;
     // 多边形路径宽度
 	int POLYGONS_PATH_DEFAULT_WIDTH = 4;
 

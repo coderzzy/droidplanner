@@ -94,8 +94,10 @@ public class GestureMapFragment extends Fragment implements OnGestureListener {
 		return path;
 	}
 
+	/*这里设置点*/
 	private void extractPathFromGesture(List<LatLong> path) {
-		float[] points = overlay.getGesture().getStrokes().get(0).points;
+		// 这行代码改产生点
+		 float[] points = overlay.getGesture().getStrokes().get(0).points;
 		for (int i = 0; i < points.length; i += 2) {
 			path.add(new LatLong((int) points[i], (int) points[i + 1]));
 		}
