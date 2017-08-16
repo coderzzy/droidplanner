@@ -1,5 +1,5 @@
 //Android projects
-include ':Android'
+include ':Android', ':ClientLib', ':Mavlink'
 
 //Uncomment block below to link to your local version of the dronekit-android client lib.
 //Don't forget to uncomment the lines in the Android/build.gradle file as well.

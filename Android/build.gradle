@@ -33,9 +33,11 @@ dependencies {
     compile 'com.android.support:multidex:1.0.1'
 
     compile 'com.github.gabrielemariotti.changeloglib:changelog:2.0.0'
+    /*
     compile ('com.o3dr.android:dronekit-android:3.0.2'){
         transitive = false;
     }
+    */
     compile ('org.droidplanner.android:usb-serial-android:0.1.0')
     compile 'me.grantland:autofittextview:0.2.1'
     compile 'com.jakewharton.timber:timber:3.1.0'
@@ -54,6 +56,8 @@ dependencies {
     compile files('libs/droneapi-java-0.3-SNAPSHOT.jar')
     compile files('libs/jeromq-0.3.4.jar')
     compile files('libs/sius-0.3.1-SNAPSHOT.jar')
+
+    compile project(":ClientLib")
 }
 
 def versionPrefix = "Tower-v"
